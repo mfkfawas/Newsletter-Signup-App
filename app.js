@@ -33,7 +33,7 @@ app.post('/', (req, res) => {
     // Convert 'data' to a JSON bcoz mailchimp only accepts as JSON
     const jsonData = JSON.stringify(data);
 
-    const url = 'https://us5.api.mailchimp.com/3.0/lists/92c32b095a';
+    const url = 'https://us1.api.mailchimp.com/3.0/lists/92c32b095a';
     const options = {
         method: 'post',
         auth: 'mfkfawas:45bce9c4c3c624770d21b68a0c902ca0-us1'
