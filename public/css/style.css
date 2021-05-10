@@ -10,21 +10,13 @@ body {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #eeeeee;
+  background-color: #fff;
 }
 
 h1 {
   font-family: 'Josefin Slab', serif;
 }
-
-.form-signin {
-  width: 100%;
-  max-width: 330px;
-  padding: 15px;
-  margin: auto;
-}
-
-.form-signin .form-floating:focus-within {
+.container .form-floating:focus-within {
   z-index: 2;
 }
 

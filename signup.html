@@ -70,54 +70,60 @@
     <link href="/css/style.css" rel="stylesheet" />
   </head>
   <body class="text-center">
-    <main class="form-signin">
+    <div class="container">
       <form action="/" method="post">
-        <img
-          class="mb-4"
-          src="http://www.teamwebpower.com/images/newsletter.png"
-          width="250"
-          height="170"
-        />
-        <h1 class="h3 mb-3 fw-normal">My Email Newsletter</h1>
+        <div class="row">
+          <div class="col-lg-5">
+            <img
+              class="mb-4"
+              src="/images/newslettert.PNG"
+              width="230"
+              height="280"
+            />
+          </div>
+          <div class="col-lg-7">
+            <h1 class="h3 mb-3 fw-normal">My Email Newsletter</h1>
 
-        <div class="form-floating">
-          <input
-            type="text"
-            name="firstname"
-            class="form-control top"
-            id="floatingInput"
-            placeholder="First Name"
-          />
-          <label for="floatingInput">First Name</label>
+            <div class="form-floating">
+              <input
+                type="text"
+                name="firstname"
+                class="form-control top"
+                id="floatingInput"
+                placeholder="First Name"
+              />
+              <label for="floatingInput">First Name</label>
+            </div>
+
+            <div class="form-floating">
+              <input
+                type="text"
+                name="lastname"
+                class="form-control middle"
+                id="floatingInput2"
+                placeholder="Last Name"
+              />
+              <label for="floatingInput2">Last Name</label>
+            </div>
+
+            <div class="form-floating">
+              <input
+                type="email"
+                name="email"
+                class="form-control bottom"
+                id="floatingEmail"
+                placeholder="Email"
+              />
+              <label for="floatingEmail">Email address</label>
+            </div>
+
+            <button class="w-100 btn btn-lg btn-primary" type="submit">
+              Sign in
+            </button>
+          </div>
         </div>
-
-        <div class="form-floating">
-          <input
-            type="text"
-            name="lastname"
-            class="form-control middle"
-            id="floatingInput2"
-            placeholder="Last Name"
-          />
-          <label for="floatingInput2">Last Name</label>
-        </div>
-
-        <div class="form-floating">
-          <input
-            type="email"
-            name="email"
-            class="form-control bottom"
-            id="floatingEmail"
-            placeholder="Email"
-          />
-          <label for="floatingEmail">Email address</label>
-        </div>
-
-        <button class="w-100 btn btn-lg btn-primary" type="submit">
-          Sign in
-        </button>
         <p class="mt-5 mb-3 text-muted">&copy;mfkfawas</p>
       </form>
-    </main>
+    </div>
   </body>
 </html>
