@@ -16,6 +16,11 @@ body {
 h1 {
   font-family: 'Josefin Slab', serif;
 }
+
+img {
+  object-fit: cover;
+}
+
 .container .form-floating:focus-within {
   z-index: 2;
 }
